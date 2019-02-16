@@ -13,9 +13,20 @@ body{
     margin-bottom:25px;
 }
 
+#logo{
+  font-family: 'Chivo', sans-serif;
+  font-size: 50px;
+  color: white;
+  margin-top: 25px;
+  margin-bottom:25px;
+}
 
-
-
+.input-field>label{
+  color: white!important;
+}
+input:not([type]), [type=text]:not(.browser-default), [type=password]:not(.browser-default), [type=email]:not(.browser-default), [type=time]:not(.browser-default), [type=date]:not(.browser-default), [type=datetime]:not(.browser-default), [type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+  border-bottom: 1px solid white!important;
+}
 
 i.small {
   color: #6979E6;
