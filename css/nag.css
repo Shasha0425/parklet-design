@@ -4,12 +4,15 @@ body{
     font-family: 'Chivo', sans-serif;
     color: #5680E9;
 }
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 img {
   width: 100%;
 }
 
 /* Chip */
+
 .chip {
   height: 50px !important;
   width: 50px !important;
@@ -19,7 +22,7 @@ img {
 }
 
 i.small {
-  color: #5680E9;
+  color: #6979E6;
 }
 
 
@@ -30,5 +33,6 @@ i.small {
 }
 
 i.medium {
+  color: #6979E6;
   font-size: 3rem !important;
 }
